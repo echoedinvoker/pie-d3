@@ -1,0 +1,30 @@
+{
+  "name": "@echoedinvoker/d3-pie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "d3",
+    "visualization",
+    "typescript"
+  ],
+  "author": "mattchang<echoedinvoker@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "dependencies": {
+    "d3": "^7.8.5"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+src/
+webpack.config.cjs
+tsconfig.json
+.npmignore
+.gitignore
+README.md
